@@ -98,6 +98,7 @@ body {
 
   .contact-info__block--center {
       justify-content: center;
+      align-items: center;
     
   }
 
@@ -303,12 +304,23 @@ body {
 .project_link { 
     margin-left: 10px;
 }
-.project_bracket {
+.project_bracket,.skills__header_bracket {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
     color: #000000;
     display: inline-block;
+}
+.skills__header_bracket {
     margin: 0 10px;
+
+}
+.contact-info__flag {
+    width: 100px;
+    
+}
+
+.timeline_milestone {
+    color: var(--durability-text-color);
 }
