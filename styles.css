@@ -17,6 +17,8 @@ body {
     --icon-color: #6a737d;
     --border-color: #edb7ea;
     --text-decoration-color: #c84cc1;
+    display: flex;
+    justify-content: center;
 }
 .wrapper {
     margin-top: 50px;
